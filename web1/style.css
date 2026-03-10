@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    border-radius: 6px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+}
+
+input {
+    border-radius: 6px;
+}
