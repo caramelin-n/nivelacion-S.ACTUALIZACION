@@ -1,5 +1,6 @@
 body {
-    background-color: antiquewhite;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 div {
@@ -7,6 +8,10 @@ div {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin: 10px;
+    border: 3px yellow dashed;
+    border-radius: 15px;
+    padding: 30px;
 }
 
 button {
@@ -25,4 +30,6 @@ input {
     display: flex;
     border: 3px black solid;
     border-radius: 10px;
+    flex-direction: row;
+    margin: 6%;
 }
